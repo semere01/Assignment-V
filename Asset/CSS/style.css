@@ -28,10 +28,16 @@ h1{
 	font-size:2rem;
 }
 
+
+
 body{
 	background-color: skyblue;
-	border: solid yellow 6px;
-	margin: 10px;
+}
+
+@media screen and (min-width: 480px) {
+  body {
+    background-color: #AAAAFF;
+  }
 }
 
 header{
@@ -41,7 +47,13 @@ header{
 	top:5px;
 	left:5px;
 }
-
+.flexbox{
+	display: flex;
+}
+.flexbox > a{
+	padding: 2px;
+	margin: 2px;
+}
 #i{
 	float:left;
 	width: 150px;
